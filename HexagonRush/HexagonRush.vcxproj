@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Library\inc\SimpleMath.cpp" />
+    <ClCompile Include="AuraController.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BossAttackBox.cpp" />
+    <ClCompile Include="BuffController.cpp" />
+    <ClCompile Include="BulletController.cpp" />
+    <ClCompile Include="Bullet_Prefab.cpp" />
+    <ClCompile Include="ButtonBase.cpp" />
+    <ClCompile Include="CameraMovementManager.cpp" />
+    <ClCompile Include="CannonBall_Prefab.cpp" />
+    <ClCompile Include="ClearTimePanelUI.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Crosshair.cpp" />
+    <ClCompile Include="Crosshiar_Prefab.cpp" />
+    <ClCompile Include="DangerUI.cpp" />
+    <ClCompile Include="DangerUI_Prefab.cpp" />
+    <ClCompile Include="DebugObjectManager.cpp" />
+    <ClCompile Include="DieScene.cpp" />
+    <ClCompile Include="DrillParticle.cpp" />
+    <ClCompile Include="DrillSpiner.cpp" />
+    <ClCompile Include="Drill_Missille_Prefab.cpp" />
+    <ClCompile Include="Drill_Sign.cpp" />
+    <ClCompile Include="Drill_Sign_Prefab.cpp" />
+    <ClCompile Include="ElectronicField.cpp" />
+    <ClCompile Include="EndingScene.cpp" />
+    <ClCompile Include="Example_Anim_Prefab.cpp" />
+    <ClCompile Include="ExplosionController.cpp" />
+    <ClCompile Include="FireController.cpp" />
+    <ClCompile Include="FireSpriteUI.cpp" />
+    <ClCompile Include="GameProcess.cpp" />
+    <ClCompile Include="Grid_Axis_Prefab.cpp" />
+    <ClCompile Include="HPPanelController.cpp" />
+    <ClCompile Include="HPPanel_Prefab.cpp" />
+    <ClCompile Include="IntroScene.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="IPrefab.cpp" />
+    <ClCompile Include="ItemUIPanel.cpp" />
+    <ClCompile Include="ItemUIPanel_Prefab.cpp" />
+    <ClCompile Include="LandMineField.cpp" />
+    <ClCompile Include="LaserController.cpp" />
+    <ClCompile Include="LoadBar_Prefab.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Missile_Prefab.cpp" />
+    <ClCompile Include="NumberRenderer.cpp" />
+    <ClCompile Include="ObjectMover.cpp" />
+    <ClCompile Include="OilField.cpp" />
+    <ClCompile Include="PanicBlueField.cpp" />
+    <ClCompile Include="PausePanelController.cpp" />
+    <ClCompile Include="PausePanel_Prefab.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="PlatformWall.cpp" />
+    <ClCompile Include="Platform_Prefab.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Player_Prefab.cpp" />
+    <ClCompile Include="ResourceLoadBar.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Rush_BulletController.cpp" />
+    <ClCompile Include="Rush_Bullet_Prefab.cpp" />
+    <ClCompile Include="SceneFader.cpp" />
+    <ClCompile Include="Second_Boss.cpp" />
+    <ClCompile Include="Second_Boss_Prefab.cpp" />
+    <ClCompile Include="SquareTiles_Prefab.cpp" />
+    <ClCompile Include="Stage2Scene.cpp" />
+    <ClCompile Include="StageClearScene.cpp" />
+    <ClCompile Include="Stage1Scene.cpp" />
+    <ClCompile Include="TestTile_Prefab.cpp" />
+    <ClCompile Include="TileManager.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="Tutorial_Boss_Prefab.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Library\inc\SimpleMath.h" />
+    <ClInclude Include="AuraController.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="BuffController.h" />
+    <ClInclude Include="BulletController.h" />
+    <ClInclude Include="BossAttackBox.h" />
+    <ClInclude Include="Bullet_Prefab.h" />
+    <ClInclude Include="ButtonBase.h" />
+    <ClInclude Include="CameraMovementManager.h" />
+    <ClInclude Include="CannonBall_Prefab.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="ClearTimePanelUI.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Crosshair.h" />
+    <ClInclude Include="Crosshiar_Prefab.h" />
+    <ClInclude Include="DangerUI.h" />
+    <ClInclude Include="DangerUI_Prefab.h" />
+    <ClInclude Include="DebugObjectManager.h" />
+    <ClInclude Include="DieScene.h" />
+    <ClInclude Include="DrillParticle.h" />
+    <ClInclude Include="DrillSpiner.h" />
+    <ClInclude Include="Drill_Missille_Prefab.h" />
+    <ClInclude Include="Drill_Sign.h" />
+    <ClInclude Include="Drill_Sign_Prefab.h" />
+    <ClInclude Include="ElectronicField.h" />
+    <ClInclude Include="EndingScene.h" />
+    <ClInclude Include="Example_Anim_Prefab.h" />
+    <ClInclude Include="ExplosionController.h" />
+    <ClInclude Include="FireController.h" />
+    <ClInclude Include="FireSpriteUI.h" />
+    <ClInclude Include="GameProcess.h" />
+    <ClInclude Include="Grid_Axis_Prefab.h" />
+    <ClInclude Include="HPPanelController.h" />
+    <ClInclude Include="HPPanel_Prefab.h" />
+    <ClInclude Include="IntroScene.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="IPrefab.h" />
+    <ClInclude Include="IState.h" />
+    <ClInclude Include="ItemUIPanel.h" />
+    <ClInclude Include="ItemUIPanel_Prefab.h" />
+    <ClInclude Include="LandMineField.h" />
+    <ClInclude Include="LaserController.h" />
+    <ClInclude Include="LoadBar_Prefab.h" />
+    <ClInclude Include="Missile_Prefab.h" />
+    <ClInclude Include="NumberRenderer.h" />
+    <ClInclude Include="ObjectMover.h" />
+    <ClInclude Include="OilField.h" />
+    <ClInclude Include="PanicBlueField.h" />
+    <ClInclude Include="PausePanelController.h" />
+    <ClInclude Include="PausePanel_Prefab.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="PlatformWall.h" />
+    <ClInclude Include="Platform_Prefab.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="Player_Prefab.h" />
+    <ClInclude Include="Player_State.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceLoadBar.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Rush_BulletController.h" />
+    <ClInclude Include="Rush_Bullet_Prefab.h" />
+    <ClInclude Include="SceneFader.h" />
+    <ClInclude Include="Second_Boss.h" />
+    <ClInclude Include="Second_Boss_Prefab.h" />
+    <ClInclude Include="Second_Boss_State.h" />
+    <ClInclude Include="SquareTiles_Prefab.h" />
+    <ClInclude Include="Stage2Scene.h" />
+    <ClInclude Include="StageClearScene.h" />
+    <ClInclude Include="StateColor.h" />
+    <ClInclude Include="Stage1Scene.h" />
+    <ClInclude Include="TestTile_Prefab.h" />
+    <ClInclude Include="TileManager.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="Tutorial_Boss_Prefab.h" />
+    <ClInclude Include="Tu_Boss_State.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Library\inc\SimpleMath.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HexagonRush.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{079679e5-5cbd-40e3-ab03-2aaaf9f02df0}</ProjectGuid>
+    <RootNamespace>GameDemo</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(SolutionDir)Library\inc\;$(SolutionDir)Graphics_DX11\;$(SolutionDir)SoundLib\;$(SolutionDir)Loader\;$(SolutionDir)Game_Engine\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Game_Engine.lib;SoundLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)Library\inc\;$(SolutionDir)Graphics_DX11\;$(SolutionDir)SoundLib\;$(SolutionDir)Loader\;$(SolutionDir)Game_Engine\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Game_Engine.lib;SoundLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Library\inc\;$(SolutionDir)Graphics_DX11\;$(SolutionDir)SoundLib\;$(SolutionDir)Loader\;$(SolutionDir)Game_Engine\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\;$(SolutionDir)Library\lib\;$(SolutionDir)Library\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Game_Engine.lib;SoundLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Library\inc\;$(SolutionDir)Graphics_DX11\;$(SolutionDir)SoundLib\;$(SolutionDir)Loader\;$(SolutionDir)Game_Engine\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\;$(SolutionDir)Library\lib\;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Game_Engine.lib;SoundLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Export">
+      <UniqueIdentifier>{cdca41ff-e962-4dd9-b438-3b49b1ff4bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\SimpleMath">
+      <UniqueIdentifier>{d87b4c39-591a-45a6-ad35-fa80cdb15f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{c46c7d80-7823-4d98-9b54-bbd401307dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLMain">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{74d6a6d2-cc13-43ce-ada3-618a7f8c7b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{233e7ef4-b640-48e2-b6d8-35c1fa91929e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader_Interface.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader_Comet.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader_ParsingData.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEManager.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEToken.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader_typedef.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEReader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEParsingData.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\inc\SimpleMath.h">
+      <Filter>Utils\SimpleMath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLLMain</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader_Comet.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEManager.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader_Interface.cpp">
+      <Filter>Export</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEReader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEToken.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\inc\SimpleMath.cpp">
+      <Filter>Utils\SimpleMath</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Library\inc\SimpleMath.inl">
+      <Filter>Utils\SimpleMath</Filter>
+    </None>
+  </ItemGroup>
+</Project>

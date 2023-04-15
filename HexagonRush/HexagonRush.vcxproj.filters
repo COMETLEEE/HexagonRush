@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{d0be0b4e-33a7-40b8-8f1d-652d3c949dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH\SimpleMath">
+      <UniqueIdentifier>{8d981741-a926-446c-916c-5da90f650c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefeb">
+      <UniqueIdentifier>{f9ce0a46-311e-43f5-af40-7bfbd9ad8178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefeb\IPrefeb">
+      <UniqueIdentifier>{75f9fc46-03a9-4617-b263-d3d4ffaa7e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefeb\Example">
+      <UniqueIdentifier>{721d068a-dea6-432c-aea4-5b3341b0a321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefeb\Tiles">
+      <UniqueIdentifier>{0f505c56-968b-49f8-be6a-4f3a3ffac762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefeb\Tiles\Tile">
+      <UniqueIdentifier>{07f0b35c-d349-484d-b1d5-4984601d112f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{8c51012e-0047-43ba-a1eb-57d7397f09d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Character">
+      <UniqueIdentifier>{dfc67976-02a2-4135-8f4c-7bf79b32b929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Character\FSM">
+      <UniqueIdentifier>{5ef9060f-3508-4c08-97dd-7a8efe117d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI">
+      <UniqueIdentifier>{4393aebb-023f-4c6e-ae10-ebbb12391beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{cdd96742-1887-41c7-8aeb-4176b23565be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ManagerComponents">
+      <UniqueIdentifier>{803473f1-f1f2-4172-809b-fea0a3a538b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Particle">
+      <UniqueIdentifier>{c433d4a9-9d1f-4ea8-a198-298d61cb7ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Player">
+      <UniqueIdentifier>{2ddcc756-f0b9-4073-af78-e547631e8d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Player\Bullet">
+      <UniqueIdentifier>{a87b953b-70a9-4d98-836e-c097882facd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\CannonBall">
+      <UniqueIdentifier>{5c88a7a0-fad6-46cc-adc3-e31c0ff31f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene\IntroScene">
+      <UniqueIdentifier>{887f35c3-7249-46f9-b488-61f7dbfaccb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene">
+      <UniqueIdentifier>{62bd8e0d-d350-456b-9c54-b1ae299bc058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\DieScene">
+      <UniqueIdentifier>{b101f8cd-ebc5-4e14-88b8-45bc9d0ea6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\StageClearScene">
+      <UniqueIdentifier>{f72f176c-585a-4a3d-82bd-b4ddf8c691fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage2Scene">
+      <UniqueIdentifier>{d53188f1-eea7-4325-b8c0-a55811de9a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage1Scene">
+      <UniqueIdentifier>{57f3eefa-9ddc-4bff-91c0-36f0ec732cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\EndingScene">
+      <UniqueIdentifier>{8900b53b-bcd0-4af1-9b61-cb28d6f6210f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1Scene.cpp">
+      <Filter>Scene\Stage1Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\inc\SimpleMath.cpp">
+      <Filter>PCH\SimpleMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="IPrefab.cpp">
+      <Filter>Prefeb\IPrefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_Anim_Prefab.cpp">
+      <Filter>Prefeb\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid_Axis_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareTiles_Prefab.cpp">
+      <Filter>Prefeb\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform_Prefab.cpp">
+      <Filter>Prefeb\Tiles\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTile_Prefab.cpp">
+      <Filter>Prefeb\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugObjectManager.cpp">
+      <Filter>Manager\ManagerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Components\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAttackBox.cpp">
+      <Filter>Components\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletController.cpp">
+      <Filter>Components\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Scene\IntroScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonBase.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoadBar.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadBar_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="PausePanel_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="PausePanelController.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial_Boss_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneFader.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HPPanel_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="HPPanelController.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserController.cpp">
+      <Filter>Components\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="FireController.cpp">
+      <Filter>Components\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Manager\ManagerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionController.cpp">
+      <Filter>Components\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Crosshair.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Crosshiar_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="AuraController.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffController.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DieScene.cpp">
+      <Filter>Scene\DieScene</Filter>
+    </ClCompile>
+    <ClCompile Include="StageClearScene.cpp">
+      <Filter>Scene\StageClearScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMovementManager.cpp">
+      <Filter>Manager\ManagerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMover.cpp">
+      <Filter>Manager\ManagerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformWall.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberRenderer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Rush_Bullet_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="Rush_BulletController.cpp">
+      <Filter>Components\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemUIPanel.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemUIPanel_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="DangerUI.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DangerUI_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2Scene.cpp">
+      <Filter>Scene\Stage2Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Second_Boss_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="Second_Boss.cpp">
+      <Filter>Components\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="FireSpriteUI.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Drill_Missille_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="DrillSpiner.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonBall_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="Drill_Sign.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Drill_Sign_Prefab.cpp">
+      <Filter>Prefeb</Filter>
+    </ClCompile>
+    <ClCompile Include="OilField.cpp">
+      <Filter>Components\CannonBall</Filter>
+    </ClCompile>
+    <ClCompile Include="LandMineField.cpp">
+      <Filter>Components\CannonBall</Filter>
+    </ClCompile>
+    <ClCompile Include="PanicBlueField.cpp">
+      <Filter>Components\CannonBall</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectronicField.cpp">
+      <Filter>Components\CannonBall</Filter>
+    </ClCompile>
+    <ClCompile Include="DrillParticle.cpp">
+      <Filter>Components\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearTimePanelUI.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>Scene\EndingScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1Scene.h">
+      <Filter>Scene\Stage1Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\inc\SimpleMath.h">
+      <Filter>PCH\SimpleMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrefab.h">
+      <Filter>Prefeb\IPrefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="Example_Anim_Prefab.h">
+      <Filter>Prefeb\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid_Axis_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareTiles_Prefab.h">
+      <Filter>Prefeb\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform_Prefab.h">
+      <Filter>Prefeb\Tiles\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTile_Prefab.h">
+      <Filter>Prefeb\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugObjectManager.h">
+      <Filter>Manager\ManagerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Components\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Components\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="IState.h">
+      <Filter>Components\Character\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>Components\Character\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial_Boss_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="Tu_Boss_State.h">
+      <Filter>Components\Character\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_State.h">
+      <Filter>Components\Character\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAttackBox.h">
+      <Filter>Components\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletController.h">
+      <Filter>Components\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Scene\IntroScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonBase.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoadBar.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadBar_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="PausePanel_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="PausePanelController.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneFader.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HPPanel_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="HPPanelController.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserController.h">
+      <Filter>Components\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="FireController.h">
+      <Filter>Components\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Manager\ManagerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionController.h">
+      <Filter>Components\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Crosshair.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Crosshiar_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AuraController.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffController.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DieScene.h">
+      <Filter>Scene\DieScene</Filter>
+    </ClInclude>
+    <ClInclude Include="StageClearScene.h">
+      <Filter>Scene\StageClearScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMovementManager.h">
+      <Filter>Manager\ManagerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMover.h">
+      <Filter>Manager\ManagerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformWall.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberRenderer.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Rush_Bullet_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="Rush_BulletController.h">
+      <Filter>Components\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemUIPanel.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemUIPanel_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="DangerUI.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DangerUI_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2Scene.h">
+      <Filter>Scene\Stage2Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Second_Boss_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="Second_Boss.h">
+      <Filter>Components\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="StateColor.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="FireSpriteUI.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Second_Boss_State.h">
+      <Filter>Components\Character\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Drill_Missille_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="DrillSpiner.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonBall_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="Drill_Sign.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Drill_Sign_Prefab.h">
+      <Filter>Prefeb</Filter>
+    </ClInclude>
+    <ClInclude Include="OilField.h">
+      <Filter>Components\CannonBall</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectronicField.h">
+      <Filter>Components\CannonBall</Filter>
+    </ClInclude>
+    <ClInclude Include="LandMineField.h">
+      <Filter>Components\CannonBall</Filter>
+    </ClInclude>
+    <ClInclude Include="PanicBlueField.h">
+      <Filter>Components\CannonBall</Filter>
+    </ClInclude>
+    <ClInclude Include="DrillParticle.h">
+      <Filter>Components\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearTimePanelUI.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>Scene\EndingScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Library\inc\SimpleMath.inl">
+      <Filter>PCH\SimpleMath</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HexagonRush.rc">
+      <Filter>Scene</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,135 @@
+코멧 그래픽스 엔진 쉐이더 사용법
+
+- 해당 목록의 텍스처를 사용하지 않는다. => ULLONG_MAX로 ID 지정해주세요.
+
+=> 현재 기능 : 사용하실 쉐이더를 밑에서 보시고 잘 이용해주세요.
+
+// PBR Lighting Model
+★★★★★★★★★★  Static Mesh ★★★★★★★★★★ 
+1. Only Color
+ ▶ VS_ColorOnly
+ ▶ PS_ColorOnly
+
+2. Albedo Texture
+ ▶ VS_A
+ ▶ PS_A
+
+2-1. Aldedo Texture And Metallic And Roughness
+ ▶ VS_AMR
+ ▶ PS_AMR
+
+3. Aldedo Texture And Normal Map
+ ▶ VS_AN
+ ▶ PS_AN
+
+4. Aldedo Texture And Normal Map And Metallic And Roughness
+ ▶ VS_ANMR
+ ▶ PS_ANMR
+
+4-1. Aldedo Texture And Normal Map And Metallic And Roughness + Rim Light
+ ▶ VS_ANMR_Rim
+ ▶ PS_ANMR_Rim
+
+5. Aldedo Texture And Normal Map And Ambient Occlusion
+ ▶ VS_ANAO
+ ▶ PS_ANAO
+
+6. Aldedo Texture And Normal Map And Metallic And Roughness And Ambient Occlusion
+ ▶ VS_ANMRAO
+ ▶ PS_ANMRAO
+
+6. Aldedo Texture And Normal Map And Metallic And Roughness And Ambient Occlusion And Emissive
+ ▶ VS_ANMRAOE
+ ▶ PS_ANMRAOE
+
+오후 6:31 2022-08-24
++ ANMRE , ANR 추가 하 ..
+
+★★★★★★★★★★ Skinning Mesh ★★★★★★★★★★ 
+1. Only Color
+ ▶ VS_ColorOnlySkinning
+ ▶ PS_ColorOnlySkinning
+
+1-1. Only Color + Rim Light
+ ▶ VS_ColorOnly_Skinning_Rim
+ ▶ PS_ColorOnly_Skinning_Rim
+
+2. Albedo Texture
+ ▶ VS_A_Skinning
+ ▶ PS_A_Skinning
+
+2-1. Aldedo Texture And Metallic And Roughness
+ ▶ VS_AMR_Skinning
+ ▶ PS_AMR_Skinning
+
+3. Aldedo Texture And Normal Map
+ ▶ VS_AN_Skinning
+ ▶ PS_AN_Skinning
+
+4. Aldedo Texture And Normal Map And Metallic And Roughness
+ ▶ VS_ANMR_Skinning
+ ▶ PS_ANMR_Skinning
+
+5. Aldedo Texture And Normal Map And Ambient Occlusion
+ ▶ VS_ANAO_Skinning
+ ▶ PS_ANAO_Skinning
+
+5-1. Aldedo Texture And Normal Map And Ambient Occlusion + Rim Light
+ ▶ VS_ANAO_Skinning_Rim
+ ▶ PS_ANAO_Skinning_Rim
+
+6. Aldedo Texture And Normal Map And Metallic And Roughness And Ambient Occlusion
+ ▶ VS_ANMRAO_Skinning
+ ▶ PS_ANMRAO_Skinning
+
+
+6-1. Aldedo Texture And Normal Map And Metallic And Roughness And Ambient Occlusion + Rim Light
+ ▶ VS_ANMRAO_Skinning_Rim
+ ▶ PS_ANMRAO_Skinning_Rim
+
+6-1. Aldedo Texture And Normal Map And Metallic And Roughness And Ambient Occlusion + Rim Light
+ ▶ VS_ANMRAOE_Skinning_Rim
+ ▶ PS_ANMRAOE_Skinning_Rim
+
+- SkyBox
+1. Default
+ ▶ VS_SkyBox
+ ▶ PS_SkyBox
+ ▶ PS_SkyBox_Equirectangular (HDRI Direct 렌더링 전용)
+// PBR Lighting Model
+
+
+// Legacy Lighting Model
+- Static Mesh  
+1. Only Color
+ ▶ VS_ColorOnly
+ ▶ PS_ColorOnly
+
+2. Diffuse Texture
+ ▶ VS_Diffuse
+ ▶ PS_Diffuse
+
+3. Diffuse Texture And Normal Map
+ ▶ VS_DiffuseNormal
+ ▶ PS_DiffuseNormal
+
+- Skinning Mesh
+1. Diffuse Texture
+ ▶ VS_DiffuseSkinning
+ ▶ PS_DiffuseSkinning
+
+2. Diffuse Texture And Normal Map
+ ▶ VS_DiffuseNormalSkinning
+ ▶ PS_DiffuseNormalSkinning
+
+- SkyBox
+1. Default
+ ▶ VS_SkyBox
+ ▶ PS_SkyBox
+// Legacy Lighting Model
+
+
+
+
+ShaderInfo (TEST CODE 추가)
+ => _rasterState => WireFrame V.S. Solid
